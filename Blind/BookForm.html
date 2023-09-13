@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    my classes
+-->
+<style>
+    .center{
+        display: block;
+        margin: auto;   
+    }</style>
+    <style>
+    .myText{
+      color: white;
+      font-size: 45px;
+      margin: auto;
+      font-family: 'Times New Roman', Times, serif;
+    }</style>
+    <style>
+    .myHead{
+      color: white;
+      font-size: 50px;
+      text-indent: 50px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    </style>
+    <style>
+        .myHead1{
+          color: white;
+          font-size: 65px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="descreption" content="Mohammed's blog">
+    <meta name="Author" content="Mohamed Alothman">
+    <meta name="Keywords" content="HTML, Exercise, Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksForm</title>
+</head>
+
+<body style="background-image: url('/Users/mohammed/Desktop/SWE-363-231/Assets/ .jpg');
+background-size: auto; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+
+<header class="myHead1">Book suggestion form</header>
+<br><br><br>
+
+<form action="Thanks.html" class="myText" autocomplete="on" style="text-align: center;">
+    <label for="bookName">Book name:</label>
+    <input type="text" id="bookName" name="bookName" required><br><br>
+
+    <label for="Authors">Author name:</label>
+    <input type="text" id="Authors" name="Authors" required><br><br>
+
+    <label for="genre">Genre:</label>
+    <input list="genres" name="genre" id="genre" required>
+    <datalist id="genres">
+        <option value="Action and Adventure">
+        <option value="Classics">
+        <option value="Comic Book or Graphic Novel"> 
+        <option value="Detective and Mystery">
+        <option value="Fantasy">
+        <option value="Historical Fiction">
+        <option value="Horror"> 
+        <option value="Literary Fiction">
+        <option value="Science Fiction (Sci-Fi)">
+    </datalist><br><br>
+    <legend class="myText">have you read the book:</legend>
+    <input type="radio" id="yes" name="answer" value="Yes" checked>
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="answer" value="No">
+    <label for="no">No</label><br><br>
+
+    <label for="Qoute">Share with me a qoute from the book(not required):</label><br>
+    <input type="text" name="Qoute" id="Qoute"><br><br>
+
+        <input type="submit" Value="submit" style="font-size: 25px;">
+        <input type="reset" value="Reset" style="font-size: 25px;">          
+</form>
+
+<!--
+  pages menu
+-->
+<nav> 
+  <div class="center" style="width: 700px; text-align: center;">
+  <h1 class="myHead">Pages list</h1>
+  <ol style="display: inline-block; text-align: center;">
+    <li class="myText"><a href="Details.html">Introduction</a></li>
+    <li class="myText"><a href="WhoIsMe.html">Who is Mohammed</a></li>
+    <li class="myText"><a href="Hobbies.html">Hobbies</a></li>
+    <li class="myText"><a href="Contacts.html">Reach me</a></li>
+  </ol>
+  </div>
+</nav>
+
+    
+</body>
+</html>
