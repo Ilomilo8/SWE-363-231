@@ -1,0 +1,85 @@
+
+body{
+  color: white; 
+  background-color: black; 
+  background-image: url('/Users/mohammed/Desktop/SWE-363-231/Assets/ .jpg');
+background-size: auto; 
+background-attachment: fixed; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+.bright-mode{
+  background-image: none;
+  background-color: white;
+  color: black;
+}
+.center{
+  display: block;
+  margin: auto;
+    
+}
+li{
+text-align: center;
+font-size: 35px;
+margin: auto;
+font-family: 'Courier New', Courier, monospace;
+}
+p{
+font-size: 35px;
+font-family: 'Courier New', Courier, monospace;
+}
+h1{
+font-size: 50px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+h2{
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+}
+tr{
+font-size: 35px;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+article{
+  text-indent: 10px;
+}
+
+footer  table{
+  width: 100%;
+}
+footer  table, td{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+  text-align: center;
+  border: none;
+}
+.books1{
+  width: 500;
+  height: 600; 
+}
+.centered:hover{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: auto;   
+}
+.borders{
+  border: 1px solid white;
+}
+
+
+
+
+
