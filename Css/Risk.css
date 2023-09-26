@@ -32,10 +32,11 @@ h1{
 font-size: 50px;
 text-align: center;
 font-family: 'Courier New', Courier, monospace;
+text-transform: uppercase;
 }
 h2{
 font-size: 40px;
-font-family: 'Courier New', Courier, monospace;
+font-family: sans-serif;
 }
 tr{
 font-size: 35px;
@@ -78,6 +79,46 @@ footer  table, td{
 .borders{
   border: 1px solid white;
 }
+th{
+  text-transform: uppercase;
+}
+a{
+  color: green;
+  text-decoration: none;
+}
+.top{
+  background-color: red;
+  border: 1px solid white;
+}
+#the_most_important{
+  background-color: gold;
+  text-transform: uppercase;
+}
+th:hover{
+  background-color: aqua;
+}
+td:hover{
+  background-color: aqua;
+}
+#page_list{
+  display: inline-block; 
+  text-align: left; 
+  display: inline;
+}
+
+::selection {
+  color: blue;
+  background: red;
+}
+
+
+
+
+
+
+
+
+
 
 
 
