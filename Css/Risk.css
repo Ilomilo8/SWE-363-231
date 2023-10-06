@@ -8,6 +8,28 @@ background-attachment: fixed;
 background-repeat: no-repeat; 
 background-size: cover;
 }
+#navbar {
+  overflow: hidden;
+  background-color: #0466c8; 
+  position:absolute; 
+  width: 100%; 
+  top: 0;
+  left: 0;
+}
+#navbar a, button{
+background-color: transparent;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 15px;
+text-decoration: none;
+}
+
+#navbar a:hover, button:hover{
+background-color: #ddd;
+color: black;
+}
 .bright-mode{
   background-image: none;
   background-color: white;
@@ -84,7 +106,6 @@ th{
 }
 a{
   color: green;
-  text-decoration: none;
 }
 .top{
   background-color: red;
@@ -110,8 +131,26 @@ td:hover{
   color: blue;
   background: red;
 }
-
-
+.center li:nth-child(2) a{
+  text-decoration: none;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  margin-bottom: -60px;
+}
+footer p{
+  font-size: large;
+}
+section{
+  margin-top: 5em;
+}
+nav{
+  margin-bottom: 60px;
+}
 
 
 
