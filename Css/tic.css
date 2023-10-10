@@ -1,3 +1,12 @@
+body{
+    color: white;
+    background-color: black; 
+    background-image: url('/Users/mohammed/Desktop/SWE-363-231/Assets/ .jpg');
+  background-size: auto; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
 h1 { 
 	color: orangered; 
 	margin-bottom: -5px; 
@@ -29,51 +38,69 @@ p {
 } 
 /* 3*3 Grid */
 #b1{ 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
+    color: white;
+    background-color: black;
+	border-bottom: 1px solid white; 
+	border-right: 1px solid white; 
 } 
 
 #b2 { 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
-	border-left: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-bottom: 1px solid white; 
+	border-right: 1px solid white; 
+	border-left: 1px solid white; 
 } 
 
 #b3 { 
-	border-bottom: 1px solid gray; 
-	border-left: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-bottom: 1px solid white; 
+	border-left: 1px solid white; 
 } 
 
 #b4 { 
-	border-top: 1px solid gray; 
-	border-bottom: 1px solid gray; 
-	border-right: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-top: 1px solid white; 
+	border-bottom: 1px solid white; 
+	border-right: 1px solid white; 
 } 
 	
 #b5 { 
-	border: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border: 1px solid white; 
 } 
 
 #b6 { 
-	border-top: 1px solid gray; 
-	border-bottom: 1px solid gray; 
-	border-left: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-top: 1px solid white; 
+	border-bottom: 1px solid white; 
+	border-left: 1px solid white; 
 } 
 
 #b7 { 
-	border-top: 1px solid gray; 
-	border-right: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-top: 1px solid white; 
+	border-right: 1px solid white; 
 } 
 
 #b8 { 
-	border-top: 1px solid gray; 
-	border-right: 1px solid gray; 
-	border-left: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-top: 1px solid white; 
+	border-right: 1px solid white; 
+	border-left: 1px solid white; 
 } 
 
 #b9 { 
-	border-top: 1px solid gray; 
-	border-left: 1px solid gray; 
+     color: white;
+    background-color: black;
+	border-top: 1px solid white; 
+	border-left: 1px solid white; 
 } 
 /* Reset Button */
 #but { 
@@ -111,3 +138,4 @@ p {
 					Tahoma, sans-serif; 
 	color: dodgerblue; 
 }
+
