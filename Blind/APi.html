@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apicall</title>
+</head>
+<link rel="stylesheet" href="../Css/Api.css">
+<body>
+<H1>Cat photo generator:</H1>
+<div class="Box"> 
+    <img style="max-width: 800px; max-height: 800;" id="img1" src="">
+</div>
+
+<div class="Box2">
+<button id="generator">generate</button>
+</div>
+
+
+    
+</body>
+<script>
+let gen = document.getElementById("generator")
+let img = document.getElementById("img1")
+
+
+gen.addEventListener("click", myFunction) 
+    
+function myFunction(){
+    fetch("https://api.thecatapi.com/v1/images/search")
+    .then((response) => response.json())
+    .then((response) => {
+        img1.src = response[0].url
+        
+
+    })
+    
+    
+       
+}
+
+</script>
+</html>
