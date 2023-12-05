@@ -30,6 +30,12 @@
           text-align: center;
           font-family: 'Times New Roman', Times, serif;
         }
+        canvas{
+  display: block;
+  background-color: white;
+  border-radius: 19px;
+  margin: auto;
+        }
         </style>
 
   
@@ -77,8 +83,15 @@ background-size: auto; background-attachment: fixed; background-repeat: no-repea
     <label for="Qoute">Share with me a qoute from the book(not required):</label><br>
     <input type="text" name="Qoute" id="Qoute"><br><br>
 
+    <h3>Signature:</h3>
+        <canvas id = "Signature">
+    
+        </canvas>
+        
+
+
         <input type="submit" Value="submit" style="font-size: 25px;">
-        <input type="reset" value="Reset" style="font-size: 25px;">          
+        <input id = "clear" type="reset" value="Reset" style="font-size: 25px;">          
 </form>
 
 <!--
@@ -117,4 +130,5 @@ background-size: auto; background-attachment: fixed; background-repeat: no-repea
 
     
 </body>
+<script src="../Js/bookForm.js"></script>
 </html>
